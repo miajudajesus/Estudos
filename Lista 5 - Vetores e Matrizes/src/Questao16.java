@@ -18,8 +18,6 @@ emento atual da p osição p p elo valor lido.
 valor lido no vetor. 
 */
 
-
-// nessa questão usarei Arraylist e ForEach para aprender.
 import java.util.*;
 
 public class Questao16 
