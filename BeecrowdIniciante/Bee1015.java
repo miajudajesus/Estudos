@@ -12,6 +12,7 @@ flutuante: x1 y1 e a segunda linha contém dois valores de ponto flutuante x2 y2
 Saída
 Calcule e imprima o valor da distância segundo a fórmula fornecida, considerando 4 casas decimais.
 */
+package BeecrowdIniciante;
 import java.util.*;
 public class Bee1015{
     public static void main(String[]args)
@@ -21,8 +22,8 @@ public class Bee1015{
     Scanner in = new Scanner (System.in);
 
     double x1 = in.nextDouble();
-    double x2 = in.nextDouble();
     double y1 = in.nextDouble();
+    double x2 = in.nextDouble();
     double y2 = in.nextDouble();
 
     // Calcule e imprima o valor da distância 
@@ -30,8 +31,12 @@ public class Bee1015{
     // V(x2 - x1)² + (y2 - y1)²
 
     double dist = Math.sqrt(((Math.pow(x2 - x1,2)) + Math.pow(y2 - y1,2)));
+    // double x2MenosX1 = Math.abs(x2 - x1);
+    // double y2MenosY1 = Math.abs(y2 - y1);
+    // double potencia = (Math.pow(x2MenosX1,2)) + Math.pow(y2MenosY1,2);
+    // double dist = Math.sqrt(potencia);
     
-    System.out.printf("%.4f", dist);
+    System.out.printf("%.4f\n", dist);
 
     in.close();
     }

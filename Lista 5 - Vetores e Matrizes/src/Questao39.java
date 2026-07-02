@@ -23,7 +23,7 @@ public class Questao39
         // Faça um programa que leia duas matrizes A(2,3) e B(3,2)
         int matriz1[][] = new int [linhas][colunas];
         int matriz2[][] = new int [lin][col];
-        
+        //int matrizResultante [][] = new int [][];
 
         // preenchendo a matriz 1.
         for(int i = 0; i < linhas; i++) //percorre a linha
@@ -69,6 +69,9 @@ public class Questao39
             System.out.println("");
         }
 
+        System.out.println("=======================================");
+
+        System.out.println("Este é o produto matricial entre as duas matrizes: ");
     }
 
 }
